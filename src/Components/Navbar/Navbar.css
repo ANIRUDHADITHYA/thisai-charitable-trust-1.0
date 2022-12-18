@@ -1,0 +1,80 @@
+.navbar-section {
+    position: fixed;
+    height: 110px;
+    width: 100%;
+}
+
+.navbar-container {
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-container .logo-container {
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-container .logo-container img {
+    width: 80%;
+}
+
+.navbar-container .side-nav {
+    flex: 2;
+    display: flex;
+    padding-left: 30px;
+}
+
+.navbar-container .side-nav i {
+    font-size: 30px;
+    color: #4b4a4c;;
+    flex: 1;
+    transition: 0.5s;
+}
+
+.navbar-container .side-nav i:hover {
+    color: #29a0d1;
+}
+
+.donate-button {
+    flex: 3;
+    text-align: center;
+}
+
+.donate-button span {
+    background-color: #29a0d1;
+    padding: 12px 30px;
+    border-radius: 2px;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.donate-button span:hover {
+    background-color: #2090c0;
+}
+
+.navbar-container ul {
+    flex: 3;
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    border-right: 1px solid #e2e1e1;
+    height: 30%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.navbar-container ul li {
+    transition: 0.5s;   
+}
+
+.navbar-container ul li:hover {
+    color: #29a0d1;
+}
