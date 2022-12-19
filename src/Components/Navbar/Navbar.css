@@ -1,6 +1,8 @@
 .navbar-section {
-    position: fixed;
+    position: relative;
     height: 110px;
+    top: 0;
+    background-color: #fff;
     width: 100%;
 }
 

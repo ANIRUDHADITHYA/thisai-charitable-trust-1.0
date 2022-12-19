@@ -1,0 +1,45 @@
+.homepage-container {
+    background-image: linear-gradient(to bottom right, #29a0d1, #ccedfb);
+    height: 100%;
+}
+
+.dashboard-section {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dashboard-section h1 {
+    font-size: 50px;
+
+}
+
+.neet-title {
+    color: white;
+    padding-top: 5px;
+    font-weight: 900;
+    padding-bottom: 30px;
+    z-index: 3;
+}
+
+.result-title {
+    color: #444A55;
+    line-height: .5px;
+    font-weight: 900;
+    opacity: 0.5;
+}
+
+.dashboard-section h6 {
+    line-height: 10px;
+    font-size: 14px;
+    font-weight: 900;
+    color: #fff;
+    z-index: 1;
+}
+
+.carousel-display-space {
+    width: 60%;
+    margin: auto;
+}
