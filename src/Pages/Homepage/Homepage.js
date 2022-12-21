@@ -9,7 +9,6 @@ import icon2 from "./../../Asserts/coaching/message2.png";
 import icon3 from "./../../Asserts/coaching/message3.png";
 import { Player } from '@lottiefiles/react-lottie-player';
 import { Link } from "react-router-dom";
-import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css"
 
 const Homepage = () => {
