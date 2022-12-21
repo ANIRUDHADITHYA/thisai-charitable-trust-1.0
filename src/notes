@@ -1,0 +1,144 @@
+{/*<div className="what-vdo-section">
+                <div className="what-vdo-wrapper">
+                    <div className="what-vdo-container">
+                        <div className="service-details">
+                            <h1>What We Do</h1>
+                            <h6>SERVICES</h6>
+                            <h2>The Program Aims at Providing</h2>
+                            <div className="service-content">
+                                <div className="service-content-container">
+                                    <i class="fa-regular fa-hand-spock"></i>
+                                    <h4>LIVE CLASSES / RECORDED LECTURES for the registered candidates</h4>
+                                </div>
+                                <div className="service-content-container">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                    <h4>WHATSAPP MENTORSHIP PROGRAM for timely doubt clarifications</h4>
+                                </div>
+                                <div className="service-content-container">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    <h4>Weekly ASSIGNMENT SOLVING with mentors on SUNDAY</h4>
+                                </div>
+                                <div className="service-content-container">
+                                    <i class="fa-regular fa-note-sticky"></i>
+                                    <h4>CONDUCT MONTHLY MOCK TEST, followed by video solutions for the same</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="service-img-wrapper">
+                            <Player
+                                autoplay
+                                loop
+                                src="https://assets9.lottiefiles.com/packages/lf20_fq7pwzey.json"
+                                style={{ height: '100%', width: '100%' }}
+                            >
+                            </Player>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="course-section">
+                <div className="course-container">
+                    <div className="course-tile-container">
+                        <h1>Categories</h1>
+                        <h6>COURSE BY CATEGORIES</h6>
+                        <h2>Course</h2>
+                    </div>
+                    <div className="course-card">
+                        <ul class="cards">
+                            <li>
+                                <Link to="#" class="card">
+                                    <img src="https://i.imgur.com/oYiTqum.jpg" class="card__image" alt="" />
+                                    <div class="card__overlay">
+                                        <div class="card__header">
+                                            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                                            <img class="card__thumb" src="https://i.imgur.com/7D7I6dI.png" alt="" />
+                                            <div class="card__header-text">
+                                                <h3 class="card__title">NEET Course 1</h3>
+                                                <span class="card__status">3 Subjects available</span>
+                                            </div>
+                                        </div>
+                                        <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+                                    </div>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="#" class="card">
+                                    <img src="https://i.imgur.com/2DhmtJ4.jpg" class="card__image" alt="" />
+                                    <div class="card__overlay">
+                                        <div class="card__header">
+                                            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                                            <img class="card__thumb" src="https://i.imgur.com/sjLMNDM.png" alt="" />
+                                            <div class="card__header-text">
+                                                <h3 class="card__title">NEET Course </h3>
+                                                <span class="card__status">5 Subjects available</span>
+                                            </div>
+                                        </div>
+                                        <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+                                    </div>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="#" class="card">
+                                    <img src="https://i.imgur.com/oYiTqum.jpg" class="card__image" alt="" />
+                                    <div class="card__overlay">
+                                        <div class="card__header">
+                                            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+                                            <img class="card__thumb" src="https://i.imgur.com/7D7I6dI.png" alt="" />
+                                            <div class="card__header-text">
+                                                <h3 class="card__title">NEET Course 3</h3>
+                                                <span class="card__status">10 Subjects available</span>
+                                            </div>
+                                        </div>
+                                        <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+                                    </div>
+                                </Link>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div className="latest-news-section">
+                <div className="latest-news-wrapper">
+                    <div className="latest-news-container">
+                        <div className="latest-news-title-card">
+                            <h1>Recognition</h1>
+                            <h6>LATEST</h6>
+                            <h2>Rewards</h2>
+                        </div>
+                        <div className="rewards-container">
+                            <Carousel
+                                swipeable={false}
+                                draggable={false}
+                                showDots={false}
+                                responsive={responsive}
+                                infinite={true}
+                                autoPlaySpeed={1000}
+                                keyBoardControl={true}
+                                customTransition="all .5"
+                                transitionDuration={500}
+                                containerClass="carousel-container"
+                                dotListClass="custom-dot-list-style"
+                                itemClass="carousel-item-padding-40-px">
+                                <div className="rewards-data-container">
+                                    <img src="https://aatrupadaifoundation.com/wp-content/uploads/2022/07/BEST-NGO-2.webp" alt="img1"></img>
+                                    <p>Title 1</p>
+                                </div>
+                                <div className="rewards-data-container">
+                                    <img src="https://aatrupadaifoundation.com/wp-content/uploads/2022/07/Newspaper.jpg" alt="img1"></img>
+                                    <p>Title 2</p>
+                                </div>
+                                <div className="rewards-data-container">
+                                    <img src="https://aatrupadaifoundation.com/wp-content/uploads/2022/07/BEST-NGO-1.webp" alt="img1"></img>
+                                    <p>Title 3</p>
+                                </div>
+                                <div className="rewards-data-container">
+                                    <img src="https://globalgoodawards.co.uk/wp-content/uploads/2022/11/GGA2022_IW__0045-500px.jpg" alt="img1"></img>
+                                    <p>Title 4</p>
+                                </div>
+                            </Carousel>
+
+                        </div>
+                    </div>
+                </div>
+    </div>*/}
