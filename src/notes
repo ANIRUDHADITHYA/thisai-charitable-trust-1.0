@@ -161,3 +161,36 @@
                     </div>
                 </div>
     </div>*/}
+
+
+    <div className="about-us-section">
+        <div className="about-us-container">
+            <div className="about-us-intro-card">
+                <h1 className="about-us-title">Who We Are</h1>
+                <h6>ABOUT US</h6>
+                <h1 className="abt-us-sub-title">Get Access to Better Education</h1>
+                <p className="abt-us-content">
+                    <b>AATRUPADAI FOUNDATION</b>, a team that has joined hands to enlighten the minds of government and
+                    government aided school NEET ASPIRANTS , aims at providing FREE MORAL and ACADEMIC SUPPORT
+                    for NEET 2022 APPEARING CANDIDATES (FRESHERS/REPEATERS) by MBBS STUDENTS.
+                </p>
+                <p><a href="/aboutus">READ MORE <span><i class="fa-solid fa-arrow-right"></i></span></a></p>
+            </div>
+            <div className="about-us-vm-card">
+                <h1>Our Vision</h1>
+                <ul>
+                    <li>Provides training through our live classes/recorded videos and with other education tools for NEET 2022 appearing candidates.</li>
+                    <li>To Create required content for NEET examination and make it accessible to govt school students across the state in future.</li>
+                    <li>To motivate, inspire, young budding social entrepreneurs to take up such social initiatives in the future.</li>
+                </ul>
+            </div>
+            <div className="about-us-vm-card">
+                <h1>Our Mission</h1>
+                <ul>
+                    <li>Provides training through our live classes/recorded videos and with other education tools for NEET 2022 appearing candidates.</li>
+                    <li>To Create required content for NEET examination and make it accessible to govt school students across the state in future.</li>
+                    <li>To motivate, inspire, young budding social entrepreneurs to take up such social initiatives in the future.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
